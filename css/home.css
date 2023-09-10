@@ -1,10 +1,75 @@
-* {font-family: 'Poppins', sans-serif;}
+* {
+    font-family: 'Poppins', sans-serif;
+}
 
-.nav-item {
-    font-size: 20px;
+.nav-item {font-size: 20px;}
+
+.top-spec {
+    margin-top: 18%;
 }
 
 #talk {
-    font-size: 24px;
+    font-size: 1.8vw;
     border-width: 2px;
+}
+
+#get-start {
+    font-size: 2vw;
+    padding: 1.8vw 7vw;
+    border-radius: 15px;
+}
+
+.topping {
+    margin-top: 5%;
+    font-size: 1.4vw;
+}
+
+.bottm {
+    display: none;
+}
+
+.big-txt {
+    font-size: 4vw; 
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:767px) {
+
+    .bottm {
+        display: grid;
+    }
+
+    .top {
+        display: none;
+    }
+
+    br {
+        display: none;
+    }
+
+    #get-start {
+        font-size: 22px;
+        padding: 24px 20%;
+    }
+}
+
+@media only screen and (min-width: 1956px) {
+
+    #get-start {
+        font-size: 36px;
+        padding: 32px 118px;
+    }
+
+    .head {
+        font-size: 30px;
+    }
+
+    .topping {
+        font-size: 28px;
+    }    
+
+    .big-txt {
+        font-size: 80px; 
+    }
 }
