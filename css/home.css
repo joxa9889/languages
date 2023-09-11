@@ -1,12 +1,4 @@
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
-.nav-item {font-size: 20px;}
-
-.top-spec {
-    margin-top: 18%;
-}
+* {font-family: 'Poppins', sans-serif;}
 
 #talk {
     font-size: 1.8vw;
@@ -24,102 +16,68 @@
     font-size: 1.4vw;
 }
 
-.bottm {
-    display: none;
-}
+.nav-item {font-size: 20px;}
 
-.big-txt {
-    font-size: 4vw; 
-}
+.top-spec {margin-top: 18%;}
 
-#difficult-img {
-    width: 66.2%;
-}
+.bottm {display: none;}
 
-.margining {
-    margin-top: 28%;
-}
+.big-txt {font-size: 4vw;}
 
-.price-sizing {
-    font-size: 1.5vw;
-}
+#difficult-img {width: 66.2%;}
 
-.per-month {
-    font-size: 1vw;
-}
+.margining {margin-top: 28%;}
 
-.bold {
-    font-size: 3vw;
-}
+.price-sizing {font-size: 1.5vw;}
 
-.anoth {
-    font-size: 1.2vw;
-}
+.per-month {font-size: 1vw;}
 
-#white {
-    background-color: white;
-}
+.bold {font-size: 3vw;}
+
+.anoth {font-size: 1.2vw;}
+
+#white {background-color: white;}
+
+#contact-us {margin-top: 180px;}
 
 @media screen and (max-width:767px) {
-
-    .bold {
-        font-size: 32px;
-    }
-
-    .bottm {
-        display: block;
-    }
-
-    .top {
-        display: none;
-    }
-
-    br {
-        display: none;
-    }
 
     #get-start {
         font-size: 22px;
         padding: 24px 20%;
     }
 
-    .anoth {
-        font-size: 16px;
-    }
+    #talk {font-size: 16px;}
 
-    .price-sizing {
-        font-size: 22px;
-    }
+    .bold {font-size: 32px;}
+
+    .bottm {display: block;}
+
+    .top {display: none;}
+
+    br {display: none;}
+
+    .anoth {font-size: 16px;}
+
+    .price-sizing {font-size: 22px;}
     
-    .per-month {
-        font-size: 16px;
-    }
+    .per-month {font-size: 16px;}
 }
 
 @media only screen and (min-width: 1956px) {
-
-    .anoth {
-        font-size: 16px;
-    }
-
-    .bold {
-        font-size: 45px;
-    }
 
     #get-start {
         font-size: 36px;
         padding: 32px 118px;
     }
 
-    .head {
-        font-size: 30px;
-    }
+    .anoth {font-size: 16px;}
 
-    .topping {
-        font-size: 28px;
-    }    
+    .bold {font-size: 45px;}
 
-    .big-txt {
-        font-size: 80px; 
-    }
+    .head {font-size: 30px;}
+
+    .topping {font-size: 28px;}    
+
+    .big-txt {font-size: 80px; }
 }
