@@ -33,8 +33,24 @@
     font-weight: 600;
 }
 
+#difficult-img {
+    width: 66.2%;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.anoth {
+    font-size: 1.2vw;
+}
 
 @media screen and (max-width:767px) {
+
+    .bold {
+        font-size: 32px;
+    }
 
     .bottm {
         display: grid;
@@ -52,9 +68,21 @@
         font-size: 22px;
         padding: 24px 20%;
     }
+
+    .anoth {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 1956px) {
+
+    .anoth {
+        font-size: 16px;
+    }
+
+    .bold {
+        font-size: 45px;
+    }
 
     #get-start {
         font-size: 36px;
