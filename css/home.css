@@ -18,15 +18,7 @@
 
 .nav-item {font-size: 20px;}
 
-.top-spec {margin-top: 18%;}
-
-.bottm {display: none;}
-
 .big-txt {font-size: 4vw;}
-
-#difficult-img {width: 66.2%;}
-
-.margining {margin-top: 28%;}
 
 .price-sizing {font-size: 1.5vw;}
 
@@ -36,9 +28,21 @@
 
 .anoth {font-size: 1.2vw;}
 
+#contact-us {margin-top: 180px;}
+
+.margining {margin-top: 28%;}
+
+.top-spec {margin-top: 18%;}
+
+.card-row {padding: 2% 4%;}
+
+#learn-btn {padding: 4% 14%;}
+
 #white {background-color: white;}
 
-#contact-us {margin-top: 180px;}
+#difficult-img {width: 66.2%;}
+
+.bottm {display: none;}
 
 @media screen and (max-width:767px) {
 
